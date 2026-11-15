@@ -20,4 +20,4 @@ Independent interval unions from both raw captures agreed with the summaries. A 
 python -m sglang.srt.observability.kernel_profile capture.trace.json.gz --steps > summary.json
 ```
 
-The captures validate correctness on one GPU. Production overhead, multi-rank attribution and a request timeline spanning a router and an inference worker remain open.
+The captures validate correctness on one GPU. Production overhead and multi-rank attribution remain open. For a separate local example that traces one request through the Dynamo KV router and an SGLang Metal worker, see the [slow-request replay](../../examples/monitoring/dynamo_sglang_trace/README.md).

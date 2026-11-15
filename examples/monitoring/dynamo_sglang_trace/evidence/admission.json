@@ -1,0 +1,11 @@
+[
+  {
+    "trace_id": "330e69c310844132864ab970585a89c9",
+    "event": {
+      "name": "prefill_admission_rejection",
+      "reason": "prefill_max_requests",
+      "selected_requests": 1,
+      "max_requests": 1
+    }
+  }
+]

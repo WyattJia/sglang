@@ -1,0 +1,9 @@
+[
+  {
+    "trace_id": "330e69c310844132864ab970585a89c9",
+    "request_id": "request-1",
+    "elapsed_ms": 538.050417,
+    "http_status": 200,
+    "output_tokens": 8
+  }
+]
