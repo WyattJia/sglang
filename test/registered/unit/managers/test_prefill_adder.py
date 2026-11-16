@@ -63,7 +63,7 @@ from sglang.test.unified_allocator_fixtures import (
     largest_take,
 )
 
-register_cpu_ci(est_time=12, suite="base-a-test-cpu")
+register_cpu_ci(est_time=5, suite="base-a-test-cpu")
 
 
 def _parent(sampled=True):

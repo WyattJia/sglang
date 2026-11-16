@@ -44,7 +44,7 @@ from sglang.srt.multimodal.token_space_mm_process.processor import (
 from sglang.srt.utils.video_decoder import VideoDecoderWrapper
 from sglang.test.ci.ci_register import register_cpu_ci
 
-register_cpu_ci(est_time=5, suite="base-a-test-cpu")
+register_cpu_ci(est_time=3, suite="base-a-test-cpu")
 
 
 class TestMMTokenExpansion(unittest.TestCase):
